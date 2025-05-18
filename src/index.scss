@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  max-width: 400px;
+  min-height: 400px;
+
+  button {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+}
